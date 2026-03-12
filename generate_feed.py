@@ -8,19 +8,24 @@ FEED_TITLE = "DerStandard Wohngespräch"
 FEED_LINK = "https://www.derstandard.at"
 FEED_DESC = "Filtered Wohngespräch articles from DerStandard"
 
+# Debug: print ALL articles found so we can see what's actually in the feed
 def fetch_articles():
     response = requests.get(SOURCE_URL, headers={"User-Agent": "Mozilla/5.0"})
     response.raise_for_status()
     root = ET.fromstring(response.content)
-    articles = []
+    all_articles = []
+    matched_articles = []
     for item in root.findall(".//item"):
         title = item.findtext("title", "")
         link = item.findtext("link", "")
         desc = item.findtext("description", "")
         pubdate = item.findtext("pubDate", "")
+        all_articles.append((title, link, desc, pubdate))
+        print(f"FOUND: {title} | {link}")  # this shows up in Action logs
         if "wohngesp" in link.lower() or "wohngesp" in title.lower():
-            articles.append((title, link, desc, pubdate))
-    return articles
+            matched_articles.append((title, link, desc, pubdate))
+    print(f"Total articles: {len(all_articles)}, Matched: {len(matched_articles)}")
+    return matched_articles
 
 def build_feed(articles):
     rss = ET.Element("rss", version="2.0")
@@ -42,4 +47,4 @@ def build_feed(articles):
 
 if __name__ == "__main__":
     articles = fetch_articles()
-    build_feed(articles)
+    build_feed(articles)  # writes feed.xml even if empty
