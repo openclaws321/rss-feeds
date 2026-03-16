@@ -35,7 +35,7 @@ def fetch_articles():
     for a in soup.find_all("a", href=True):
         href = a["href"]
         title = a.get_text(strip=True)
-        if "wohngesp" in href.lower() and title:
+        if href.startswith("/story/") and title:
             full_url = "https://www.derstandard.at" + href if href.startswith("/") else href
             if full_url not in seen:
                 seen.add(full_url)
