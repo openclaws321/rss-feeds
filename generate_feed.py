@@ -57,3 +57,11 @@ def build_feed(articles):
 if __name__ == "__main__":
     articles = fetch_articles()
     build_feed(articles)  # writes feed.xml even if empty
+4	
+    <title>DerStandard Wohngespräch</title>
+    <link>https://www.derstandard.at</link>
+    <description>Filtered Wohngespräch articles from DerStandard</description>
+    <lastBuildDate>Sun, 15 Mar 2026 19:18:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 06:00:33 +0000</lastBuildDate>
+  </channel>
+</rss>
