@@ -56,6 +56,7 @@ def build_feed(articles):
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = title
         ET.SubElement(item, "link").text = link
+        ET.SubElement(item, "guid").text = link
 
     tree = ET.ElementTree(rss)
     ET.indent(tree, space="  ")
