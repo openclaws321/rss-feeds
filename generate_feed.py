@@ -2,6 +2,15 @@ import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
+import os
+
+cookie_str = os.environ.get("DS_COOKIES", "")
+cookies = dict(item.split("=", 1) for item in cookie_str.split("; ") if "=" in item)
+
+response = requests.get(SOURCE_URL, headers={
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+}, cookies=cookies)
+
 SOURCE_URL = "https://www.derstandard.at/rss/immobilien"
 OUTPUT_FILE = "feed.xml"
 FEED_TITLE = "DerStandard Wohngespräch"
