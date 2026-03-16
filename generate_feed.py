@@ -30,6 +30,9 @@ def fetch_articles():
     seen = set()
 
     for a in soup.find_all("a", href=True):
+        print("LINK:", a["href"], "|", a.get_text(strip=True)[:50])
+        
+    for a in soup.find_all("a", href=True):
         href = a["href"]
         title = a.get_text(strip=True)
         if "wohngesp" in href.lower() and title:
