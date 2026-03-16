@@ -9,7 +9,12 @@ OUTPUT_FILE = "feed.xml"
 
 def fetch_articles():
     cookie_str = os.environ.get("DS_COOKIES", "")
-    cookies = dict(item.split("=", 1) for item in cookie_str.split("; ") if "=" in item)
+    cookies = {}
+    for item in cookie_str.split("; "):
+        if "=" in item:
+            k, v = item.split("=", 1)
+            v = v.encode("latin-1", errors="ignore").decode("latin-1")
+            cookies[k.strip()] = v
 
     response = requests.get(SOURCE_URL, headers={
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
