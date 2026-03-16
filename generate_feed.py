@@ -30,13 +30,12 @@ def fetch_articles():
     seen = set()
 
     for a in soup.find_all("a", href=True):
-        print("LINK:", a["href"], "|", a.get_text(strip=True)[:50])
-        
-    for a in soup.find_all("a", href=True):
         href = a["href"]
-        title = a.get_text(strip=True)
-        if href.startswith("/story/") and title:
-            full_url = "https://www.derstandard.at" + href if href.startswith("/") else href
+        if href.startswith("/story/"):
+            full_url = "https://www.derstandard.at" + href
+            # extract title from URL slug, e.g. "/story/300000.../this-is-the-title"
+            slug = href.split("/")[-1]
+            title = slug.replace("-", " ").title()
             if full_url not in seen:
                 seen.add(full_url)
                 articles.append((title, full_url))
