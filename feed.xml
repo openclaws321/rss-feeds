@@ -2,8 +2,16 @@
 <rss version="2.0">
   <channel>
     <title>DerStandard Wohngespräch</title>
-    <link>https://www.derstandard.at</link>
-    <description>Filtered Wohngespräch articles from DerStandard</description>
-    <lastBuildDate>Mon, 16 Mar 2026 06:00:33 +0000</lastBuildDate>
+    <link>https://www.derstandard.at/immobilien/bauenwohnen/wohngespraech</link>
+    <description>Wohngespräch articles from DerStandard</description>
+    <lastBuildDate>Mon, 16 Mar 2026 12:33:38 +0000</lastBuildDate>
+    <item>
+      <title>Wohngespräch</title>
+      <link>https://www.derstandard.at/immobilien/bauenwohnen/wohngespraech</link>
+    </item>
+    <item>
+      <title>Weitere Artikel anzeigen</title>
+      <link>https://www.derstandard.at/immobilien/bauenwohnen/wohngespraech/2025/10/26</link>
+    </item>
   </channel>
 </rss>
