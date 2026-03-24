@@ -48,16 +48,20 @@ def fetch_content(url, cookies):
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # Try to get the real title
+        # Real title
         title_tag = soup.find("h1")
         title = title_tag.get_text(strip=True) if title_tag else None
 
-        # Get article body
+        # Remove junk elements before extracting content
+        for tag in soup.find_all(["script", "style", "nav", "header", "footer", "aside"]):
+            tag.decompose()
+
+        # Get article body as HTML
         body = soup.find("article") or soup.find(class_="article-body") or soup.find("main")
-        content = body.get_text(separator="\n", strip=True) if body else ""
+        content_html = str(body) if body else "<p>No content found.</p>"
 
         print(f"Fetched: {url}")
-        return title, content
+        return title, content_html
     except Exception as e:
         print(f"Failed to fetch {url}: {e}")
         return None, ""
