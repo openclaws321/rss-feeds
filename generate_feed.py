@@ -67,8 +67,7 @@ def fetch_content(url, cookies):
         return None, ""
 
 def build_feed(articles, cookies):
-    rss = ET.Element("rss", version="2.0")
-    channel = ET.SubElement(rss, "channel")
+    rss = ET.Element("rss", version="2.0", attrib={"xmlns:content": "http://purl.org/rss/1.0/modules/content/"})    channel = ET.SubElement(rss, "channel")
     ET.SubElement(channel, "title").text = "DerStandard Wohngespräch"
     ET.SubElement(channel, "link").text = SOURCE_URL
     ET.SubElement(channel, "description").text = "Wohngespräch articles from DerStandard"
@@ -80,7 +79,8 @@ def build_feed(articles, cookies):
         ET.SubElement(item, "title").text = real_title or title
         ET.SubElement(item, "link").text = link
         ET.SubElement(item, "guid").text = link
-        ET.SubElement(item, "description").text = content
+        content_el = ET.SubElement(item, "content:encoded")
+        content_el.text = content_html
 
     tree = ET.ElementTree(rss)
     ET.indent(tree, space="  ")
