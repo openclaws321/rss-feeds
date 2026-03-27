@@ -22,11 +22,9 @@ def fetch_articles(cookies):
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }, cookies=cookies)
     response.raise_for_status()
-
     soup = BeautifulSoup(response.text, "html.parser")
     articles = []
     seen = set()
-
     for a in soup.find_all("a", href=True):
         href = a["href"]
         if href.startswith("/story/"):
@@ -36,7 +34,6 @@ def fetch_articles(cookies):
             if full_url not in seen:
                 seen.add(full_url)
                 articles.append((title, full_url))
-
     print(f"Found {len(articles)} articles")
     return articles
 
@@ -47,21 +44,14 @@ def fetch_content(url, cookies):
         }, cookies=cookies, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
-
-        # Real title
         title_tag = soup.find("h1")
         title = title_tag.get_text(strip=True) if title_tag else None
-
-        # Remove junk elements before extracting content
         for tag in soup.find_all(["script", "style", "nav", "header", "footer", "aside"]):
             tag.decompose()
-
-        # Get article body as HTML
         body = soup.find("article") or soup.find(class_="article-body") or soup.find("main")
-        content_html = str(body) if body else "<p>No content found.</p>"
-
+        html = str(body) if body else "<p>No content found.</p>"
         print(f"Fetched: {url}")
-        return title, content_html
+        return title, html
     except Exception as e:
         print(f"Failed to fetch {url}: {e}")
         return None, ""
@@ -75,16 +65,13 @@ def build_feed(articles, cookies):
     ET.SubElement(channel, "link").text = SOURCE_URL
     ET.SubElement(channel, "description").text = "Wohngespräch articles from DerStandard"
     ET.SubElement(channel, "lastBuildDate").text = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
-
     for title, link in articles:
-        real_title, content_html = fetch_content(link, cookies)
+        real_title, html = fetch_content(link, cookies)
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = real_title or title
         ET.SubElement(item, "link").text = link
         ET.SubElement(item, "guid").text = link
-        content_el = ET.SubElement(item, "content:encoded")
-        content_el.text = content_html
-
+        ET.SubElement(item, "content:encoded").text = html
     tree = ET.ElementTree(rss)
     ET.indent(tree, space="  ")
     tree.write(OUTPUT_FILE, encoding="unicode", xml_declaration=True)
