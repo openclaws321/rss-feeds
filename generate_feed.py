@@ -67,7 +67,9 @@ def fetch_content(url, cookies):
         return None, ""
 
 def build_feed(articles, cookies):
-    rss = ET.Element("rss", version="2.0", attrib={"xmlns:content": "http://purl.org/rss/1.0/modules/content/"})
+    rss = ET.Element("rss")
+    rss.set("version", "2.0")
+    rss.set("xmlns:content", "http://purl.org/rss/1.0/modules/content/")
     channel = ET.SubElement(rss, "channel")
     ET.SubElement(channel, "title").text = "DerStandard Wohngespräch"
     ET.SubElement(channel, "link").text = SOURCE_URL
