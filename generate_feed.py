@@ -75,7 +75,7 @@ def build_feed(articles, cookies):
     ET.SubElement(channel, "lastBuildDate").text = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
 
     for title, link in articles:
-        real_title, content = fetch_content(link, cookies)
+        real_title, content_html = fetch_content(link, cookies)
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = real_title or title
         ET.SubElement(item, "link").text = link
