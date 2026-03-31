@@ -6,6 +6,8 @@ from datetime import datetime, timezone
 SOURCE_URL = "https://www.eduscho.at/c/jede-woche-neue-inspirationen"
 OUTPUT_FILE = "feed_eduscho.xml"
 
+SKIP = {"Neu", "Nur Online", "endet bald", "Alle Artikel stark reduziert", "Exklusiv vorab kaufen!"}
+
 def fetch_articles():
     response = requests.get(SOURCE_URL, headers={
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -18,13 +20,29 @@ def fetch_articles():
 
     for a in soup.find_all("a", href=True):
         href = a["href"]
-        if "/themeworlds/" in href and href not in seen:
-            seen.add(href)
-            # grab the two text lines inside the link
-            texts = [t.strip() for t in a.stripped_strings]
-            title = " – ".join(texts) if texts else href
-            full_url = "https://www.eduscho.at" + href if href.startswith("/") else href
-            articles.append((title, full_url))
+        if "/themeworlds/" not in href or href in seen:
+            continue
+        seen.add(href)
+        full_url = "https://www.eduscho.at" + href if href.startswith("/") else href
+
+        title = ""
+        subtitle = ""
+        next_sib = a.next_sibling
+        while next_sib:
+            if hasattr(next_sib, 'get_text'):
+                text = next_sib.get_text(strip=True)
+            else:
+                text = str(next_sib).strip()
+            if text and text not in SKIP:
+                if not title:
+                    title = text
+                elif not subtitle:
+                    subtitle = text
+                    break
+            next_sib = next_sib.next_sibling
+
+        full_title = f"{title} – {subtitle}" if subtitle else (title or href)
+        articles.append((full_title, full_url))
 
     print(f"Found {len(articles)} articles")
     return articles
