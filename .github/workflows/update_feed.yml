@@ -24,9 +24,8 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git stash
-          git pull --rebase origin main
-          git stash pop
+          git fetch origin
+          git checkout origin/main -- .
           git add feed.xml feed_eduscho.xml
           git diff --cached --quiet || git commit -m "Update feed"
           git push
