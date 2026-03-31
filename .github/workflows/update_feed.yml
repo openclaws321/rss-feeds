@@ -17,10 +17,11 @@ jobs:
       - run: python generate_feed.py
         env:
           DS_COOKIES: ${{ secrets.DS_COOKIES }}
+      - run: python generate_feed_eduscho.py
       - name: Commit and push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add feed.xml
+          git add feed.xml feed_eduscho.xml
           git diff --cached --quiet || git commit -m "Update feed"
           git push
