@@ -22,35 +22,28 @@ def fetch_articles():
         href = a["href"]
         if "/themeworlds/" not in href or href in seen:
             continue
+
+        link_text = a.get_text(strip=True)
+        if not link_text:
+            continue
+
         seen.add(href)
-        # DEBUG
-        sibs = []
-        s = a.next_sibling
-        for _ in range(5):
-            if s is None:
-                break
-            sibs.append(repr(s)[:80])
-            s = s.next_sibling
-        print(f"SIBLINGS of {href}: {sibs}")
         full_url = "https://www.eduscho.at" + href if href.startswith("/") else href
+        subtitle = link_text
 
         title = ""
-        subtitle = ""
-        next_sib = a.next_sibling
-        while next_sib:
-            if hasattr(next_sib, 'get_text'):
-                text = next_sib.get_text(strip=True)
+        prev_sib = a.previous_sibling
+        while prev_sib:
+            if hasattr(prev_sib, 'get_text'):
+                text = prev_sib.get_text(strip=True)
             else:
-                text = str(next_sib).strip()
+                text = str(prev_sib).strip()
             if text and text not in SKIP:
-                if not title:
-                    title = text
-                elif not subtitle:
-                    subtitle = text
-                    break
-            next_sib = next_sib.next_sibling
+                title = text
+                break
+            prev_sib = prev_sib.previous_sibling
 
-        full_title = f"{title} – {subtitle}" if subtitle else (title or href)
+        full_title = f"{title} – {subtitle}" if title else subtitle
         articles.append((full_title, full_url))
 
     print(f"Found {len(articles)} articles")
