@@ -23,6 +23,15 @@ def fetch_articles():
         if "/themeworlds/" not in href or href in seen:
             continue
         seen.add(href)
+        # DEBUG
+        sibs = []
+        s = a.next_sibling
+        for _ in range(5):
+            if s is None:
+                break
+            sibs.append(repr(s)[:80])
+            s = s.next_sibling
+        print(f"SIBLINGS of {href}: {sibs}")
         full_url = "https://www.eduscho.at" + href if href.startswith("/") else href
 
         title = ""
