@@ -25,7 +25,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git fetch origin
-          git checkout origin/main -- .
+          git reset --mixed origin/main
           git add feed.xml feed_eduscho.xml
           git diff --cached --quiet || git commit -m "Update feed"
           git push
