@@ -1,9 +1,10 @@
+# version 3
 import requests
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 import os
-# v2
+
 SOURCE_URL = "https://www.derstandard.at/immobilien/bauenwohnen/wohngespraech"
 OUTPUT_FILE = "feed.xml"
 
