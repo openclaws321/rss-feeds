@@ -13,6 +13,7 @@ def fetch_articles():
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     })
     response.raise_for_status()
+    print("HTML SAMPLE:", response.text[2000:3500])
     soup = BeautifulSoup(response.text, "html.parser")
 
     articles = []
