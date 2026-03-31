@@ -26,5 +26,4 @@ jobs:
           git config user.email "actions@github.com"
           git add feed.xml feed_eduscho.xml
           git diff --cached --quiet || git commit -m "Update feed"
-          git pull --rebase
-          git push
+          git push --force
