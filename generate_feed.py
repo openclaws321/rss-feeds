@@ -17,23 +17,51 @@ def get_cookies():
             cookies[k.strip()] = v
     return cookies
 
-def fetch_articles(cookies):
+def fetch_articles():
     response = requests.get(SOURCE_URL, headers={
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-    }, cookies=cookies)
+    })
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
+
     articles = []
     seen = set()
+
     for a in soup.find_all("a", href=True):
         href = a["href"]
-        if href.startswith("/story/"):
-            full_url = "https://www.derstandard.at" + href
-            slug = href.split("/")[-1]
-            title = slug.replace("-", " ").title()
-            if full_url not in seen:
-                seen.add(full_url)
-                articles.append((title, full_url))
+        if "/themeworlds/" not in href or href in seen:
+            continue
+        seen.add(href)
+        full_url = "https://www.eduscho.at" + href if href.startswith("/") else href
+
+        # Title is in the next sibling <a> tag's text, or in surrounding text nodes
+        # Try: the subtitle link (next <a> with same href) has the description
+        # The heading text sits between the image <a> and the subtitle <a>
+        title = ""
+        subtitle = ""
+        next_sib = a.next_sibling
+        while next_sib:
+            if hasattr(next_sib, 'get_text'):
+                text = next_sib.get_text(strip=True)
+                if text and text not in ("Neu", "Nur Online", "endet bald", "Alle Artikel stark reduziert", "Exklusiv vorab kaufen!"):
+                    if not title:
+                        title = text
+                    elif not subtitle:
+                        subtitle = text
+                        break
+            elif str(next_sib).strip():
+                text = str(next_sib).strip()
+                if text and text not in ("Neu", "Nur Online", "endet bald", "Alle Artikel stark reduziert", "Exklusiv vorab kaufen!"):
+                    if not title:
+                        title = text
+            next_sib = next_sib.next_sibling
+
+        if not title:
+            title = href  # fallback
+
+        full_title = f"{title} – {subtitle}" if subtitle else title
+        articles.append((full_title, full_url))
+
     print(f"Found {len(articles)} articles")
     return articles
 
