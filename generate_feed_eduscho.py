@@ -25,7 +25,7 @@ def fetch_articles():
             continue
 
         link_text = a.get_text(strip=True)
-        if not link_text:
+        if not link_text or link_text in SKIP:
             continue
 
         seen.add(href)
