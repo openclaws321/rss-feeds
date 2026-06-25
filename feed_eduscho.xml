@@ -4,7 +4,7 @@
     <title>Eduscho Themenwelten</title>
     <link>https://www.eduscho.at/c/jede-woche-neue-inspirationen</link>
     <description>Jede Woche neue Inspirationen von Eduscho/Tchibo</description>
-    <lastBuildDate>Thu, 25 Jun 2026 03:37:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 09:22:31 +0000</lastBuildDate>
     <item>
       <title>NeuExklusiv vorab kaufen</title>
       <link>https://www.eduscho.at/themeworlds/3881/tropical-dreams</link>
@@ -24,6 +24,11 @@
       <title>Nur online – Swimwear, Sportmode, SUP Boards &amp; mehr</title>
       <link>https://www.eduscho.at/themeworlds/3892/tag-am-meer</link>
       <guid>https://www.eduscho.at/themeworlds/3892/tag-am-meer</guid>
+    </item>
+    <item>
+      <title>NeuAlle Artikel stark reduziert</title>
+      <link>https://www.eduscho.at/themeworlds/3889/marken-die-wir-lieben-jetzt-im-sale</link>
+      <guid>https://www.eduscho.at/themeworlds/3889/marken-die-wir-lieben-jetzt-im-sale</guid>
     </item>
     <item>
       <title>Nur online – Die Tchibo Kindermöbel-Kollektion</title>
@@ -56,11 +61,6 @@
       <guid>https://www.eduscho.at/themeworlds/3800/cool-bleiben</guid>
     </item>
     <item>
-      <title>Nur online – endet am 3.8. – Farbenfrohe Bettwäsche &amp; Ideen für guten Schlaf</title>
-      <link>https://www.eduscho.at/themeworlds/2819/bunte-traume</link>
-      <guid>https://www.eduscho.at/themeworlds/2819/bunte-traume</guid>
-    </item>
-    <item>
       <title>Auch in der Filiale – endet am 27.7. – Die Camping-Kollektion 2026</title>
       <link>https://www.eduscho.at/themeworlds/3597/urlaubsziel-freiheit</link>
       <guid>https://www.eduscho.at/themeworlds/3597/urlaubsziel-freiheit</guid>
@@ -71,14 +71,14 @@
       <guid>https://www.eduscho.at/themeworlds/3677/pretty-in-pink</guid>
     </item>
     <item>
+      <title>Nur online – endet am 3.8. – Farbenfrohe Bettwäsche &amp; Ideen für guten Schlaf</title>
+      <link>https://www.eduscho.at/themeworlds/2819/bunte-traume</link>
+      <guid>https://www.eduscho.at/themeworlds/2819/bunte-traume</guid>
+    </item>
+    <item>
       <title>Nur online – endet am 28.12. – Unser Bettwäsche-Sortiment – jetzt dauerhaft auf eduscho.at</title>
       <link>https://www.eduscho.at/themeworlds/2583/schlafen-wie-sie-wollen</link>
       <guid>https://www.eduscho.at/themeworlds/2583/schlafen-wie-sie-wollen</guid>
-    </item>
-    <item>
-      <title>Auch in der Filiale – endet am 3.8. – Leichte Tag- und Nachtwäsche, die gute Laune macht</title>
-      <link>https://www.eduscho.at/themeworlds/3648/summer-mornings</link>
-      <guid>https://www.eduscho.at/themeworlds/3648/summer-mornings</guid>
     </item>
     <item>
       <title>Nur online – endet am 27.7. – Die Outdoorkollektion für den Sommer</title>
@@ -86,9 +86,9 @@
       <guid>https://www.eduscho.at/themeworlds/3789/raus-aus-dem-alltag-rein-ins-abenteuer</guid>
     </item>
     <item>
-      <title>Nur online – endet am 6.7. – Neue Sommerbettwäsche – herrlich weich &amp; sanft</title>
-      <link>https://www.eduscho.at/themeworlds/3632/traumhaft-leicht</link>
-      <guid>https://www.eduscho.at/themeworlds/3632/traumhaft-leicht</guid>
+      <title>Auch in der Filiale – endet am 3.8. – Leichte Tag- und Nachtwäsche, die gute Laune macht</title>
+      <link>https://www.eduscho.at/themeworlds/3648/summer-mornings</link>
+      <guid>https://www.eduscho.at/themeworlds/3648/summer-mornings</guid>
     </item>
     <item>
       <title>Nur online – endet am 20.7. – Radbekleidung, E-Bikes &amp; Zubehör</title>
@@ -101,14 +101,19 @@
       <guid>https://www.eduscho.at/themeworlds/3808/unsichtbar-schon</guid>
     </item>
     <item>
-      <title>Nur online – endet am 20.7. – Gemütliche Nachtwäsche für sie &amp; ihn</title>
-      <link>https://www.eduscho.at/themeworlds/3715/zeit-fur-uns</link>
-      <guid>https://www.eduscho.at/themeworlds/3715/zeit-fur-uns</guid>
+      <title>Nur online – endet am 6.7. – Neue Sommerbettwäsche – herrlich weich &amp; sanft</title>
+      <link>https://www.eduscho.at/themeworlds/3632/traumhaft-leicht</link>
+      <guid>https://www.eduscho.at/themeworlds/3632/traumhaft-leicht</guid>
     </item>
     <item>
       <title>Nur online – endet am 6.7. – Neue Denim Styles von Angels</title>
       <link>https://www.eduscho.at/themeworlds/3663/marken-die-wir-lieben</link>
       <guid>https://www.eduscho.at/themeworlds/3663/marken-die-wir-lieben</guid>
+    </item>
+    <item>
+      <title>Nur online – endet am 20.7. – Gemütliche Nachtwäsche für sie &amp; ihn</title>
+      <link>https://www.eduscho.at/themeworlds/3715/zeit-fur-uns</link>
+      <guid>https://www.eduscho.at/themeworlds/3715/zeit-fur-uns</guid>
     </item>
     <item>
       <title>Auch in der Filiale – endet am 20.7. – Alles für ein tolles Fußballfest</title>
@@ -131,19 +136,19 @@
       <guid>https://www.eduscho.at/themeworlds/3770/jetzt-findet-leben-wieder-draussen-statt</guid>
     </item>
     <item>
-      <title>Auch in der Filiale – endet am 6.7. – So wird der Urlaub schon vor der Abreise zum Erlebnis</title>
-      <link>https://www.eduscho.at/themeworlds/3422/reisen-leicht-gemacht</link>
-      <guid>https://www.eduscho.at/themeworlds/3422/reisen-leicht-gemacht</guid>
-    </item>
-    <item>
-      <title>Auch in der Filiale – endet am 10.8. – So wird jeder Moment draußen zum Genuss</title>
-      <link>https://www.eduscho.at/themeworlds/3696/hier-schmeckt-der-sommer</link>
-      <guid>https://www.eduscho.at/themeworlds/3696/hier-schmeckt-der-sommer</guid>
+      <title>Nur online – endet am 13.7. – Durchdachte Möbel und Garten-Ausstattung</title>
+      <link>https://www.eduscho.at/themeworlds/3405/neuer-look-fur-balkon-garten</link>
+      <guid>https://www.eduscho.at/themeworlds/3405/neuer-look-fur-balkon-garten</guid>
     </item>
     <item>
       <title>Nur online – endet am 13.7. – So kommen Kinder gut durchs Jahr</title>
       <link>https://www.eduscho.at/themeworlds/3729/spass-bei-jedem-wetter</link>
       <guid>https://www.eduscho.at/themeworlds/3729/spass-bei-jedem-wetter</guid>
+    </item>
+    <item>
+      <title>Auch in der Filiale – endet am 10.8. – So wird jeder Moment draußen zum Genuss</title>
+      <link>https://www.eduscho.at/themeworlds/3696/hier-schmeckt-der-sommer</link>
+      <guid>https://www.eduscho.at/themeworlds/3696/hier-schmeckt-der-sommer</guid>
     </item>
     <item>
       <title>Nur online – endet am 20.7. – Die neue Kollektion der Tchibo Lauf-Community</title>
@@ -156,14 +161,14 @@
       <guid>https://www.eduscho.at/themeworlds/3103/marken-die-wir-lieben</guid>
     </item>
     <item>
+      <title>Auch in der Filiale – endet am 6.7. – So wird der Urlaub schon vor der Abreise zum Erlebnis</title>
+      <link>https://www.eduscho.at/themeworlds/3422/reisen-leicht-gemacht</link>
+      <guid>https://www.eduscho.at/themeworlds/3422/reisen-leicht-gemacht</guid>
+    </item>
+    <item>
       <title>Nur online – endet am 20.7. – Neue Herrenlooks von Tom Tailor</title>
       <link>https://www.eduscho.at/themeworlds/3777/marken-die-wir-lieben</link>
       <guid>https://www.eduscho.at/themeworlds/3777/marken-die-wir-lieben</guid>
-    </item>
-    <item>
-      <title>Nur online – endet am 3.8. – Sommerlooks und Badebekleidung für Babys &amp; kleine Kinder</title>
-      <link>https://www.eduscho.at/themeworlds/3832/alles-fur-kleine-sonnenscheine</link>
-      <guid>https://www.eduscho.at/themeworlds/3832/alles-fur-kleine-sonnenscheine</guid>
     </item>
     <item>
       <title>Nur online – endet am 13.7. – Bequeme Wäschebasics und Loungewear für Männer</title>
@@ -171,14 +176,14 @@
       <guid>https://www.eduscho.at/themeworlds/3706/meine-komfortzone</guid>
     </item>
     <item>
+      <title>Nur online – endet am 3.8. – Sommerlooks und Badebekleidung für Babys &amp; kleine Kinder</title>
+      <link>https://www.eduscho.at/themeworlds/3832/alles-fur-kleine-sonnenscheine</link>
+      <guid>https://www.eduscho.at/themeworlds/3832/alles-fur-kleine-sonnenscheine</guid>
+    </item>
+    <item>
       <title>Nur online – endet am 13.7. – E-Bikes, Radbekleidung &amp; Zubehör</title>
       <link>https://www.eduscho.at/themeworlds/3521/auf-und-davon</link>
       <guid>https://www.eduscho.at/themeworlds/3521/auf-und-davon</guid>
-    </item>
-    <item>
-      <title>Nur online – endet am 13.7. – Durchdachte Möbel und Garten-Ausstattung</title>
-      <link>https://www.eduscho.at/themeworlds/3405/neuer-look-fur-balkon-garten</link>
-      <guid>https://www.eduscho.at/themeworlds/3405/neuer-look-fur-balkon-garten</guid>
     </item>
     <item>
       <title>Nur online – endet am 3.8. – Reiseaccessoires, Koffer &amp; mehr</title>
@@ -186,14 +191,14 @@
       <guid>https://www.eduscho.at/themeworlds/3833/entspannt-in-den-urlaub</guid>
     </item>
     <item>
-      <title>Nur online – endet am 19.10. – Wohlfühlwäsche von CALIDA</title>
-      <link>https://www.eduscho.at/themeworlds/3179/marken-die-wir-lieben</link>
-      <guid>https://www.eduscho.at/themeworlds/3179/marken-die-wir-lieben</guid>
-    </item>
-    <item>
       <title>Nur online – endet am 2.11. – Bademode von arena</title>
       <link>https://www.eduscho.at/themeworlds/3477/marken-die-wir-lieben</link>
       <guid>https://www.eduscho.at/themeworlds/3477/marken-die-wir-lieben</guid>
+    </item>
+    <item>
+      <title>Nur online – endet am 19.10. – Wohlfühlwäsche von CALIDA</title>
+      <link>https://www.eduscho.at/themeworlds/3179/marken-die-wir-lieben</link>
+      <guid>https://www.eduscho.at/themeworlds/3179/marken-die-wir-lieben</guid>
     </item>
     <item>
       <title>Nur online – endet am 20.7. – Ideen rund um den Genuss zur WM</title>
@@ -206,14 +211,14 @@
       <guid>https://www.eduscho.at/themeworlds/3583/marken-die-wir-lieben</guid>
     </item>
     <item>
-      <title>Nur online – endet am 27.7. – Die besten Backhelfer für sommerliche Leckereien</title>
-      <link>https://www.eduscho.at/themeworlds/3807/susses-zaubern-im-nu</link>
-      <guid>https://www.eduscho.at/themeworlds/3807/susses-zaubern-im-nu</guid>
-    </item>
-    <item>
       <title>Nur online – endet am 13.7. – Dekoleuchten für Garten, Terrasse &amp; Balkon</title>
       <link>https://www.eduscho.at/themeworlds/3486/stimmungsvolle-akzente</link>
       <guid>https://www.eduscho.at/themeworlds/3486/stimmungsvolle-akzente</guid>
+    </item>
+    <item>
+      <title>Nur online – endet am 27.7. – Die besten Backhelfer für sommerliche Leckereien</title>
+      <link>https://www.eduscho.at/themeworlds/3807/susses-zaubern-im-nu</link>
+      <guid>https://www.eduscho.at/themeworlds/3807/susses-zaubern-im-nu</guid>
     </item>
     <item>
       <title>Auch in der Filiale – endet am 6.7. – Hier dreht sich alles um das süße Früchtchen</title>
@@ -261,6 +266,11 @@
       <guid>https://www.eduscho.at/themeworlds/3788/home-sweet-home</guid>
     </item>
     <item>
+      <title>Nur online – endet am 3.8. – Einrichtungsideen mit dem Zen-Faktor</title>
+      <link>https://www.eduscho.at/themeworlds/3414/klare-linien-ruhige-farben</link>
+      <guid>https://www.eduscho.at/themeworlds/3414/klare-linien-ruhige-farben</guid>
+    </item>
+    <item>
       <title>Nur online – endet am 14.9. – Umstands- und Stillmode von mama;licious</title>
       <link>https://www.eduscho.at/themeworlds/3096/marken-die-wir-lieben</link>
       <guid>https://www.eduscho.at/themeworlds/3096/marken-die-wir-lieben</guid>
@@ -269,11 +279,6 @@
       <title>Nur online – endet am 21.9. – name it – Kindermode, die Spaß macht</title>
       <link>https://www.eduscho.at/themeworlds/3143/marken-die-wir-lieben</link>
       <guid>https://www.eduscho.at/themeworlds/3143/marken-die-wir-lieben</guid>
-    </item>
-    <item>
-      <title>Nur online – endet am 3.8. – Einrichtungsideen mit dem Zen-Faktor</title>
-      <link>https://www.eduscho.at/themeworlds/3414/klare-linien-ruhige-farben</link>
-      <guid>https://www.eduscho.at/themeworlds/3414/klare-linien-ruhige-farben</guid>
     </item>
     <item>
       <title>Nur online – endet am 31.8. – Neue Lieblingsmöbel im skandinavischen Design</title>
