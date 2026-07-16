@@ -4,7 +4,7 @@
     <title>Eduscho Themenwelten</title>
     <link>https://www.eduscho.at/c/jede-woche-neue-inspirationen</link>
     <description>Jede Woche neue Inspirationen von Eduscho/Tchibo</description>
-    <lastBuildDate>Thu, 16 Jul 2026 02:38:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 08:13:32 +0000</lastBuildDate>
     <item>
       <title>NeuExklusiv vorab kaufen</title>
       <link>https://www.eduscho.at/themeworlds/3999/heisser-werden-die-preise-nicht</link>
@@ -21,6 +21,11 @@
       <guid>https://www.eduscho.at/themeworlds/3990/voll-im-trend</guid>
     </item>
     <item>
+      <title>NeuAlle Artikel stark reduziert</title>
+      <link>https://www.eduscho.at/themeworlds/4017/garten-sale</link>
+      <guid>https://www.eduscho.at/themeworlds/4017/garten-sale</guid>
+    </item>
+    <item>
       <title>Nur online – Funktionale Sportswear für Frauen &amp; Männer</title>
       <link>https://www.eduscho.at/themeworlds/4006/ready-to-move</link>
       <guid>https://www.eduscho.at/themeworlds/4006/ready-to-move</guid>
@@ -34,11 +39,6 @@
       <title>Nur online – Alles für die schönsten Kaffeemomente zu Hause &amp; unterwegs</title>
       <link>https://www.eduscho.at/themeworlds/4012/ein-sommer-zum-geniessen</link>
       <guid>https://www.eduscho.at/themeworlds/4012/ein-sommer-zum-geniessen</guid>
-    </item>
-    <item>
-      <title>Nur online – endet am 3.8. – Kreative Spielideen – jetzt reduziert erhältlich!</title>
-      <link>https://www.eduscho.at/themeworlds/3938/spielwaren-von-small-foot</link>
-      <guid>https://www.eduscho.at/themeworlds/3938/spielwaren-von-small-foot</guid>
     </item>
     <item>
       <title>Auch in der Filiale – endet am 14.9. – Diese Styles erzählen die schönsten Geschichten vom Sommer</title>
@@ -101,24 +101,24 @@
       <guid>https://www.eduscho.at/themeworlds/2583/schlafen-wie-sie-wollen</guid>
     </item>
     <item>
-      <title>Auch in der Filiale – endet am 24.8. – Mit der neuen Sommerkollektion fürs Schlafzimmer</title>
-      <link>https://www.eduscho.at/themeworlds/3800/cool-bleiben</link>
-      <guid>https://www.eduscho.at/themeworlds/3800/cool-bleiben</guid>
-    </item>
-    <item>
       <title>Nur online – endet am 27.7. – Die Outdoorkollektion für den Sommer</title>
       <link>https://www.eduscho.at/themeworlds/3789/raus-aus-dem-alltag-rein-ins-abenteuer</link>
       <guid>https://www.eduscho.at/themeworlds/3789/raus-aus-dem-alltag-rein-ins-abenteuer</guid>
     </item>
     <item>
-      <title>Nur online – endet am 24.8. – Unsere knitterarme Bettwäsche</title>
-      <link>https://www.eduscho.at/themeworlds/3965/traumhaft-pflegeleicht</link>
-      <guid>https://www.eduscho.at/themeworlds/3965/traumhaft-pflegeleicht</guid>
+      <title>Auch in der Filiale – endet am 24.8. – Mit der neuen Sommerkollektion fürs Schlafzimmer</title>
+      <link>https://www.eduscho.at/themeworlds/3800/cool-bleiben</link>
+      <guid>https://www.eduscho.at/themeworlds/3800/cool-bleiben</guid>
     </item>
     <item>
       <title>Nur online – endet am 24.8. – Sommerlich frische Herrenmode</title>
       <link>https://www.eduscho.at/themeworlds/3956/zeit-fur-leichte-looks</link>
       <guid>https://www.eduscho.at/themeworlds/3956/zeit-fur-leichte-looks</guid>
+    </item>
+    <item>
+      <title>Nur online – endet am 24.8. – Unsere knitterarme Bettwäsche</title>
+      <link>https://www.eduscho.at/themeworlds/3965/traumhaft-pflegeleicht</link>
+      <guid>https://www.eduscho.at/themeworlds/3965/traumhaft-pflegeleicht</guid>
     </item>
     <item>
       <title>Nur online – endet am 10.8. – Farbenfrohe Tag- &amp; Nachtwäsche für Damen</title>
@@ -196,14 +196,19 @@
       <guid>https://www.eduscho.at/themeworlds/2777/wo-leben-ein-zuhause-hat</guid>
     </item>
     <item>
+      <title>Nur online – endet am 17.8. – Die CN3 Serie in den schönsten warmen Farben</title>
+      <link>https://www.eduscho.at/themeworlds/3930/cn3-x-cozy-colours</link>
+      <guid>https://www.eduscho.at/themeworlds/3930/cn3-x-cozy-colours</guid>
+    </item>
+    <item>
       <title>Nur online – endet am 17.8. – Die schönsten Ideen für eine fröhliche Abkühlung</title>
       <link>https://www.eduscho.at/themeworlds/3928/pitsch-patsch-gartenspass</link>
       <guid>https://www.eduscho.at/themeworlds/3928/pitsch-patsch-gartenspass</guid>
     </item>
     <item>
-      <title>Nur online – endet am 17.8. – Die CN3 Serie in den schönsten warmen Farben</title>
-      <link>https://www.eduscho.at/themeworlds/3930/cn3-x-cozy-colours</link>
-      <guid>https://www.eduscho.at/themeworlds/3930/cn3-x-cozy-colours</guid>
+      <title>Nur online – endet am 3.8. – Kreative Spielideen – jetzt reduziert erhältlich!</title>
+      <link>https://www.eduscho.at/themeworlds/3938/spielwaren-von-small-foot</link>
+      <guid>https://www.eduscho.at/themeworlds/3938/spielwaren-von-small-foot</guid>
     </item>
     <item>
       <title>Nur online – endet am 27.7. – Stilvolle Möbelideen für den Flur</title>
