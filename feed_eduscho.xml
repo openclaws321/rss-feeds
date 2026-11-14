@@ -4,7 +4,7 @@
     <title>Eduscho Themenwelten</title>
     <link>https://www.eduscho.at/c/jede-woche-neue-inspirationen</link>
     <description>Jede Woche neue Inspirationen von Eduscho/Tchibo</description>
-    <lastBuildDate>Fri, 13 Nov 2026 23:18:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 05:16:01 +0000</lastBuildDate>
     <item>
       <title>Nächste Woche auch in der Filiale – Pyjamas für Groß und Klein</title>
       <link>https://www.eduscho.at/themeworlds/4995/oh-wie-gemutlich</link>
@@ -81,14 +81,14 @@
       <guid>https://www.eduscho.at/themeworlds/4830/piste-frei-fur-winterkinder</guid>
     </item>
     <item>
-      <title>Auch in der Filiale – endet am 28.12. – Kindermode &amp; mehr für eine gemütliche Winterzeit</title>
-      <link>https://www.eduscho.at/themeworlds/4793/kuschelige-wintermagie</link>
-      <guid>https://www.eduscho.at/themeworlds/4793/kuschelige-wintermagie</guid>
-    </item>
-    <item>
       <title>Auch in der Filiale – endet am 23.11. – Strick, Cord &amp; feminine Basics</title>
       <link>https://www.eduscho.at/themeworlds/4483/stilsicher-durch-den-herbst</link>
       <guid>https://www.eduscho.at/themeworlds/4483/stilsicher-durch-den-herbst</guid>
+    </item>
+    <item>
+      <title>Auch in der Filiale – endet am 28.12. – Kindermode &amp; mehr für eine gemütliche Winterzeit</title>
+      <link>https://www.eduscho.at/themeworlds/4793/kuschelige-wintermagie</link>
+      <guid>https://www.eduscho.at/themeworlds/4793/kuschelige-wintermagie</guid>
     </item>
     <item>
       <title>Nur online – endet am 14.12. – Lieblingslooks aus Strick, Cord, Samt &amp; Co.</title>
@@ -101,29 +101,9 @@
       <guid>https://www.eduscho.at/themeworlds/4820/marken-die-wir-lieben</guid>
     </item>
     <item>
-      <title>Nur online – endet am 23.11. – Loungewear &amp; Nachtwäsche, die Sie lieben werden</title>
-      <link>https://www.eduscho.at/themeworlds/4714/hallo-gemutlichkeit</link>
-      <guid>https://www.eduscho.at/themeworlds/4714/hallo-gemutlichkeit</guid>
-    </item>
-    <item>
-      <title>Nur online – endet am 30.11. – Wäsche für sie &amp; ihn</title>
-      <link>https://www.eduscho.at/themeworlds/4896/komfort-der-einfach-passt</link>
-      <guid>https://www.eduscho.at/themeworlds/4896/komfort-der-einfach-passt</guid>
-    </item>
-    <item>
       <title>Auch in der Filiale – endet am 14.12. – Wärmende Begleiter für die kalte Jahreszeit</title>
       <link>https://www.eduscho.at/themeworlds/4674/zeit-zum-einkuscheln</link>
       <guid>https://www.eduscho.at/themeworlds/4674/zeit-zum-einkuscheln</guid>
-    </item>
-    <item>
-      <title>Nur online – endet am 30.11. – Modische Allwetterkleidung für sie &amp; ihn</title>
-      <link>https://www.eduscho.at/themeworlds/4823/verliebt-ins-herbstwetter</link>
-      <guid>https://www.eduscho.at/themeworlds/4823/verliebt-ins-herbstwetter</guid>
-    </item>
-    <item>
-      <title>Nur online – endet am 21.12. – Neue Ideen für Fitness und Erholung</title>
-      <link>https://www.eduscho.at/themeworlds/4974/fur-power-recovery</link>
-      <guid>https://www.eduscho.at/themeworlds/4974/fur-power-recovery</guid>
     </item>
     <item>
       <title>Auch in der Filiale – endet am 30.11. – Ausdrucksstarke Tag- &amp; Nachtwäsche für sie und ihn</title>
@@ -131,14 +111,29 @@
       <guid>https://www.eduscho.at/themeworlds/4537/sinnliches-farbenspiel</guid>
     </item>
     <item>
+      <title>Nur online – endet am 30.11. – Wäsche für sie &amp; ihn</title>
+      <link>https://www.eduscho.at/themeworlds/4896/komfort-der-einfach-passt</link>
+      <guid>https://www.eduscho.at/themeworlds/4896/komfort-der-einfach-passt</guid>
+    </item>
+    <item>
+      <title>Nur online – endet am 21.12. – Neue Ideen für Fitness und Erholung</title>
+      <link>https://www.eduscho.at/themeworlds/4974/fur-power-recovery</link>
+      <guid>https://www.eduscho.at/themeworlds/4974/fur-power-recovery</guid>
+    </item>
+    <item>
+      <title>Nur online – endet am 23.11. – Loungewear &amp; Nachtwäsche, die Sie lieben werden</title>
+      <link>https://www.eduscho.at/themeworlds/4714/hallo-gemutlichkeit</link>
+      <guid>https://www.eduscho.at/themeworlds/4714/hallo-gemutlichkeit</guid>
+    </item>
+    <item>
+      <title>Nur online – endet am 30.11. – Modische Allwetterkleidung für sie &amp; ihn</title>
+      <link>https://www.eduscho.at/themeworlds/4823/verliebt-ins-herbstwetter</link>
+      <guid>https://www.eduscho.at/themeworlds/4823/verliebt-ins-herbstwetter</guid>
+    </item>
+    <item>
       <title>Nur online – endet am 23.11. – Moderne Looks &amp; vielseitige Basics für kühle Tage</title>
       <link>https://www.eduscho.at/themeworlds/4740/klassiker-der-saison</link>
       <guid>https://www.eduscho.at/themeworlds/4740/klassiker-der-saison</guid>
-    </item>
-    <item>
-      <title>Nur online – endet am 21.12. – Lieblingswäsche für Babys, kleine &amp; große Kids</title>
-      <link>https://www.eduscho.at/themeworlds/4935/drunter-wird-s-bunter</link>
-      <guid>https://www.eduscho.at/themeworlds/4935/drunter-wird-s-bunter</guid>
     </item>
     <item>
       <title>Nur online – endet am 28.12. – Unser Bettwäsche-Sortiment – jetzt dauerhaft auf eduscho.at</title>
@@ -146,9 +141,9 @@
       <guid>https://www.eduscho.at/themeworlds/2583/schlafen-wie-sie-wollen</guid>
     </item>
     <item>
-      <title>Nur online – endet am 30.11. – Einfach einkuscheln in Flanell &amp; Biber</title>
-      <link>https://www.eduscho.at/themeworlds/4817/zeit-fur-winterschlaf</link>
-      <guid>https://www.eduscho.at/themeworlds/4817/zeit-fur-winterschlaf</guid>
+      <title>Nur online – endet am 21.12. – Lieblingswäsche für Babys, kleine &amp; große Kids</title>
+      <link>https://www.eduscho.at/themeworlds/4935/drunter-wird-s-bunter</link>
+      <guid>https://www.eduscho.at/themeworlds/4935/drunter-wird-s-bunter</guid>
     </item>
     <item>
       <title>Nur online – endet am 23.11. – Triumph: Wäscheträume in Dunkelblau, Rosé &amp; Bordeaux</title>
@@ -156,19 +151,14 @@
       <guid>https://www.eduscho.at/themeworlds/4685/marken-die-wir-lieben</guid>
     </item>
     <item>
+      <title>Nur online – endet am 30.11. – Einfach einkuscheln in Flanell &amp; Biber</title>
+      <link>https://www.eduscho.at/themeworlds/4817/zeit-fur-winterschlaf</link>
+      <guid>https://www.eduscho.at/themeworlds/4817/zeit-fur-winterschlaf</guid>
+    </item>
+    <item>
       <title>Nur online – endet am 30.11. – Funktionale Radbekleidung für Damen &amp; Herren</title>
       <link>https://www.eduscho.at/themeworlds/4771/ab-aufs-rad</link>
       <guid>https://www.eduscho.at/themeworlds/4771/ab-aufs-rad</guid>
-    </item>
-    <item>
-      <title>Nur online – endet am 7.12. – Ausdrucksstarke Lieblingslooks mit Leo-Print</title>
-      <link>https://www.eduscho.at/themeworlds/4872/let-s-go-wild</link>
-      <guid>https://www.eduscho.at/themeworlds/4872/let-s-go-wild</guid>
-    </item>
-    <item>
-      <title>Nur online – endet am 30.11. – Luxuriöse Tag- und Nachtwäsche im Leo-Look</title>
-      <link>https://www.eduscho.at/themeworlds/4812/wild-elegance</link>
-      <guid>https://www.eduscho.at/themeworlds/4812/wild-elegance</guid>
     </item>
     <item>
       <title>Nur online – endet am 7.12. – Stilvolle Tag- &amp; Nachtwäsche in zeitlosem Schwarz</title>
@@ -176,14 +166,24 @@
       <guid>https://www.eduscho.at/themeworlds/4851/back-to-black</guid>
     </item>
     <item>
+      <title>Nur online – endet am 23.11. – Kuschelige Bettwäsche für den Herbst</title>
+      <link>https://www.eduscho.at/themeworlds/4466/farben-zum-traumen</link>
+      <guid>https://www.eduscho.at/themeworlds/4466/farben-zum-traumen</guid>
+    </item>
+    <item>
       <title>Nur online – endet am 23.11. – Zeitlose Herrenmode von Tom Tailor</title>
       <link>https://www.eduscho.at/themeworlds/4763/marken-die-wir-lieben</link>
       <guid>https://www.eduscho.at/themeworlds/4763/marken-die-wir-lieben</guid>
     </item>
     <item>
-      <title>Nur online – endet am 23.11. – Kuschelige Bettwäsche für den Herbst</title>
-      <link>https://www.eduscho.at/themeworlds/4466/farben-zum-traumen</link>
-      <guid>https://www.eduscho.at/themeworlds/4466/farben-zum-traumen</guid>
+      <title>Nur online – endet am 30.11. – Luxuriöse Tag- und Nachtwäsche im Leo-Look</title>
+      <link>https://www.eduscho.at/themeworlds/4812/wild-elegance</link>
+      <guid>https://www.eduscho.at/themeworlds/4812/wild-elegance</guid>
+    </item>
+    <item>
+      <title>Nur online – endet am 7.12. – Ausdrucksstarke Lieblingslooks mit Leo-Print</title>
+      <link>https://www.eduscho.at/themeworlds/4872/let-s-go-wild</link>
+      <guid>https://www.eduscho.at/themeworlds/4872/let-s-go-wild</guid>
     </item>
     <item>
       <title>Auch in der Filiale – endet am 7.12. – Kochhelfer &amp; Deko in herbstlichem Design</title>
@@ -201,24 +201,24 @@
       <guid>https://www.eduscho.at/themeworlds/4905/oh-du-frohliche-bescherung</guid>
     </item>
     <item>
-      <title>Nur online – endet am 11.1. – Möbelideen für neue Lieblingsplätze</title>
-      <link>https://www.eduscho.at/themeworlds/4608/mein-stil-mein-zuhause</link>
-      <guid>https://www.eduscho.at/themeworlds/4608/mein-stil-mein-zuhause</guid>
-    </item>
-    <item>
-      <title>Nur online – endet am 8.2. – So rüsten Sie Ihren Garten für den Winter</title>
-      <link>https://www.eduscho.at/themeworlds/4420/goldener-herbstgarten</link>
-      <guid>https://www.eduscho.at/themeworlds/4420/goldener-herbstgarten</guid>
-    </item>
-    <item>
       <title>Nur online – endet am 21.12. – CN3 trifft Smart Home</title>
       <link>https://www.eduscho.at/themeworlds/4967/smart-wohnen</link>
       <guid>https://www.eduscho.at/themeworlds/4967/smart-wohnen</guid>
     </item>
     <item>
+      <title>Nur online – endet am 11.1. – Möbelideen für neue Lieblingsplätze</title>
+      <link>https://www.eduscho.at/themeworlds/4608/mein-stil-mein-zuhause</link>
+      <guid>https://www.eduscho.at/themeworlds/4608/mein-stil-mein-zuhause</guid>
+    </item>
+    <item>
       <title>Nur online – endet am 14.12. – Wendebettwäsche für stilvolle Abwechslung im Schlafzimmer</title>
       <link>https://www.eduscho.at/themeworlds/4913/doppelt-schon</link>
       <guid>https://www.eduscho.at/themeworlds/4913/doppelt-schon</guid>
+    </item>
+    <item>
+      <title>Nur online – endet am 8.2. – So rüsten Sie Ihren Garten für den Winter</title>
+      <link>https://www.eduscho.at/themeworlds/4420/goldener-herbstgarten</link>
+      <guid>https://www.eduscho.at/themeworlds/4420/goldener-herbstgarten</guid>
     </item>
     <item>
       <title>Nur online – endet am 23.11. – Alles rund ums Brotbacken</title>
@@ -231,6 +231,11 @@
       <guid>https://www.eduscho.at/themeworlds/4713/neues-wohngluck</guid>
     </item>
     <item>
+      <title>Nur online – endet am 28.12. – CN3 Serie – neue Farben, neue Modelle!</title>
+      <link>https://www.eduscho.at/themeworlds/4367/blau-machen-mit-stil</link>
+      <guid>https://www.eduscho.at/themeworlds/4367/blau-machen-mit-stil</guid>
+    </item>
+    <item>
       <title>Nur online – endet am 7.12. – Hochwertiges Kochgeschirr aus Gusseisen</title>
       <link>https://www.eduscho.at/themeworlds/4861/genuss-in-seiner-schonsten-form</link>
       <guid>https://www.eduscho.at/themeworlds/4861/genuss-in-seiner-schonsten-form</guid>
@@ -241,9 +246,9 @@
       <guid>https://www.eduscho.at/themeworlds/4653/marken-die-wir-lieben</guid>
     </item>
     <item>
-      <title>Nur online – endet am 14.12. – Einrichten mit natürlichen Farben &amp; organischen Formen</title>
-      <link>https://www.eduscho.at/themeworlds/4895/lieblingsplatz-zuhause</link>
-      <guid>https://www.eduscho.at/themeworlds/4895/lieblingsplatz-zuhause</guid>
+      <title>Nur online – endet am 23.11. – Trendlooks von Only Girls in Größe 122–164</title>
+      <link>https://www.eduscho.at/themeworlds/4632/marken-die-wir-lieben</link>
+      <guid>https://www.eduscho.at/themeworlds/4632/marken-die-wir-lieben</guid>
     </item>
     <item>
       <title>Nur online – endet am 7.12. – Exklusive Möbelserien fürs Badezimmer</title>
@@ -251,19 +256,14 @@
       <guid>https://www.eduscho.at/themeworlds/4858/neue-badkultur</guid>
     </item>
     <item>
+      <title>Nur online – endet am 14.12. – Einrichten mit natürlichen Farben &amp; organischen Formen</title>
+      <link>https://www.eduscho.at/themeworlds/4895/lieblingsplatz-zuhause</link>
+      <guid>https://www.eduscho.at/themeworlds/4895/lieblingsplatz-zuhause</guid>
+    </item>
+    <item>
       <title>Nur online – endet am 11.1. – Unsere schönsten Leuchten für die ganze Wohnung</title>
       <link>https://www.eduscho.at/themeworlds/4592/leuchtende-vorbilder</link>
       <guid>https://www.eduscho.at/themeworlds/4592/leuchtende-vorbilder</guid>
-    </item>
-    <item>
-      <title>Nur online – endet am 23.11. – Trendlooks von Only Girls in Größe 122–164</title>
-      <link>https://www.eduscho.at/themeworlds/4632/marken-die-wir-lieben</link>
-      <guid>https://www.eduscho.at/themeworlds/4632/marken-die-wir-lieben</guid>
-    </item>
-    <item>
-      <title>Nur online – endet am 28.12. – CN3 Serie – neue Farben, neue Modelle!</title>
-      <link>https://www.eduscho.at/themeworlds/4367/blau-machen-mit-stil</link>
-      <guid>https://www.eduscho.at/themeworlds/4367/blau-machen-mit-stil</guid>
     </item>
     <item>
       <title>Nur online – endet am 8.2. – Alles für einen aufgeräumten Garten</title>
@@ -281,14 +281,14 @@
       <guid>https://www.eduscho.at/themeworlds/4586/marken-die-wir-lieben</guid>
     </item>
     <item>
-      <title>Nur online – endet am 23.11. – Umstands- und Stillmode von mama;licious</title>
-      <link>https://www.eduscho.at/themeworlds/4691/marken-die-wir-lieben</link>
-      <guid>https://www.eduscho.at/themeworlds/4691/marken-die-wir-lieben</guid>
-    </item>
-    <item>
       <title>Nur online – endet am 30.11. – Stühle &amp; Tische für gemütliche Momente</title>
       <link>https://www.eduscho.at/themeworlds/4436/moderne-tafelrunde</link>
       <guid>https://www.eduscho.at/themeworlds/4436/moderne-tafelrunde</guid>
+    </item>
+    <item>
+      <title>Nur online – endet am 23.11. – Umstands- und Stillmode von mama;licious</title>
+      <link>https://www.eduscho.at/themeworlds/4691/marken-die-wir-lieben</link>
+      <guid>https://www.eduscho.at/themeworlds/4691/marken-die-wir-lieben</guid>
     </item>
     <item>
       <title>Nur online – nur noch 2 Tage – Accessoires &amp; Lieblingsmode bis Größe XXL</title>
